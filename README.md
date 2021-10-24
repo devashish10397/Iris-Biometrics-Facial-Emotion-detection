@@ -1,0 +1,2 @@
+# Iris-Biometrics-Facial-Emotion-detection
+My major project where we tried to build a smart home. We added iris biometric for authentication and Facial emotion detection.  The proposed smart home system is capable of adjusting, the mood of the user by detecting a real-time facial expression and adjusting the house environment - lighting, air-conditioning, and music system, accordingly. It is additionally equipped with biometric (iris) security.
