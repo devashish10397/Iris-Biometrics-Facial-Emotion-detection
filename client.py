@@ -2,8 +2,9 @@ import socket
 import cv2
 import os
 import shutil
-import random
 import numpy as np
+import secrets
+
 #from pygame import mixer
 #from time import sleep
 
@@ -108,8 +109,8 @@ def get_files(emotion): #split 80-20
     files = os.listdir("F:\\MajorProject\\Emotion_Dataset\\"+emotion+"\\")
     files2 = os.listdir("F:\\MajorProject\\Emotion_Dataset\\TestingImages\\")
 
-    random.shuffle(files)
-    random.shuffle(files2)
+    secrets.SystemRandom().shuffle(files)
+    secrets.SystemRandom().shuffle(files2)
 
     training = files[:int(len(files)*0.8)]
     prediction = files2[:int(len(files2)*1)]
